@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    background-color: #232323;
+    color: white;
+    overflow: auto;
+    border-bottom: 3px #FF3333 solid;
+    padding: 25px 0;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar li a:hover {
+    transition: 400ms;
+    color: #FF3333;
+}
+
+.titulo {
+    margin: 0;
+    float: left;
+    margin-top: 8px;
+}
+
+body .header .navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.destaque {
+    color: #FF3333;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.banner {
+    text-align: center;
+    background-image: url(../img/office.jpeg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 45px;
+}
+
+.saibaMais button {
+    border: 0;
+    background-color: #FF3333;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.saibaMais {
+    text-align: center;
+    height: 90px;
+    width: 100%;
+    background-color: #232323;
+    display: flex;
+}
+
+
+/* MISSÃO, VISÃO E VALORES */
+
+.box .boxItem img {
+    height: 100px;
+}
+
+.box {
+    display: flex;
+    /* border: 3px solid #23B04B; */
+    margin: auto;
+}
+
+.box .container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.boxItem {
+    text-align: center;
+    /* border: 3px solid #23B04B; */
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #FF3333;
+    height: 90px;
+    display: flex;
+}
+
+.footer h4 {
+    margin: 0;
+    font-weight: 100;
+    color: white;
+}
+
+.bannerSobre {
+    text-align: center;
+    background-image: url(../img/birds.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    background-position: center;
+}
+
+.bannerSobre h1 {
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 5.5%;
+}
+
+.sobre {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #E3E3E3;
+    padding: 20px;
+    overflow: auto;
+    margin: 30px 0;
+}
+
+.sobre img {
+    display: flex;
+    flex: 1;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: #232323 solid 3px;
+}
+
+.textos {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 20px;
+}
+
+.textos .titulo {
+    margin: 0;
+}
